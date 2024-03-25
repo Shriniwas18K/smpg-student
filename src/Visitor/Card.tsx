@@ -32,15 +32,15 @@ export default function Cards() {
     )
 }
 
+// 
+// async function processData() {
+    // fetch('https://smpg.onrender.com/retrieveProperties/412434').then(data => {
+        // return data.json()
+    // }).then(data => {
+        // data.map(item => {
+            // console.log(item)
+        // })
+    // })
+// }
 
-async function processData() {
-    fetch('https://smpg.onrender.com/retrieveProperties/412434').then(data => {
-        return data.json()
-    }).then(data => {
-        data.map(item => {
-            console.log(item)
-        })
-    })
-}
-
-processData();
+// processData();

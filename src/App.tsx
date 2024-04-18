@@ -1,4 +1,5 @@
 import './App.css';
+import Cards from './Visitor/Card';
 import OutputCardfield from './Visitor/OutputCardfield';
 const products=[
   ['a1-PG,Tilak Colony,sector-26,akurdi,Pune',2500,"./img1.jpg",10123],
@@ -24,7 +25,8 @@ function App() {
         </div>
       </div>
       <div className="card-container font-sans mt-20 lg:flex">
-        {content}
+        {/* {content} */}
+        <Cards/>
       </div>
     </>
   )
